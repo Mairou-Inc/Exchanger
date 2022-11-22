@@ -1,8 +1,8 @@
 services:
 
-  frontend:
+  exchnager:
       context: .
-    container_name: frontend
+    container_name: front
     restart: always
     ports:
       - "80:80"
