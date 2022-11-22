@@ -1,7 +1,8 @@
 services:
 
   exchnager:
-    context: .
+    build:
+      context: .
     container_name: front
     restart: always
     ports:
